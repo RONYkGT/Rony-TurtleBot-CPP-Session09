@@ -9,12 +9,19 @@
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
+  <build_depend>rclcpp_action</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>turtle_controller_interfaces</build_depend>
+
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
   <depend>rclcpp</depend>
   <depend>std_msgs</depend>
   <depend>geometry_msgs</depend>
   <depend>sensor_msgs</depend>
+  <exec_depend>rclcpp_action</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>turtle_controller_interfaces</exec_depend>
 
   <export>
     <build_type>ament_cmake</build_type>

@@ -198,41 +198,115 @@ session_09_uninstall/fast:
 .PHONY : session_09_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named talker
+# Target rules for targets named driver
 
 # Build rule for target.
-talker: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 talker
-.PHONY : talker
+driver: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 driver
+.PHONY : driver
 
 # fast build rule for target.
-talker/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/build
-.PHONY : talker/fast
+driver/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver.dir/build.make CMakeFiles/driver.dir/build
+.PHONY : driver/fast
 
-src/publisher_node.o: src/publisher_node.cpp.o
-.PHONY : src/publisher_node.o
+#=============================================================================
+# Target rules for targets named lap_timer_server
+
+# Build rule for target.
+lap_timer_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lap_timer_server
+.PHONY : lap_timer_server
+
+# fast build rule for target.
+lap_timer_server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lap_timer_server.dir/build.make CMakeFiles/lap_timer_server.dir/build
+.PHONY : lap_timer_server/fast
+
+#=============================================================================
+# Target rules for targets named lap_timer_client
+
+# Build rule for target.
+lap_timer_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lap_timer_client
+.PHONY : lap_timer_client
+
+# fast build rule for target.
+lap_timer_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lap_timer_client.dir/build.make CMakeFiles/lap_timer_client.dir/build
+.PHONY : lap_timer_client/fast
+
+src/driver_node.o: src/driver_node.cpp.o
+.PHONY : src/driver_node.o
 
 # target to build an object file
-src/publisher_node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/publisher_node.cpp.o
-.PHONY : src/publisher_node.cpp.o
+src/driver_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver.dir/build.make CMakeFiles/driver.dir/src/driver_node.cpp.o
+.PHONY : src/driver_node.cpp.o
 
-src/publisher_node.i: src/publisher_node.cpp.i
-.PHONY : src/publisher_node.i
+src/driver_node.i: src/driver_node.cpp.i
+.PHONY : src/driver_node.i
 
 # target to preprocess a source file
-src/publisher_node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/publisher_node.cpp.i
-.PHONY : src/publisher_node.cpp.i
+src/driver_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver.dir/build.make CMakeFiles/driver.dir/src/driver_node.cpp.i
+.PHONY : src/driver_node.cpp.i
 
-src/publisher_node.s: src/publisher_node.cpp.s
-.PHONY : src/publisher_node.s
+src/driver_node.s: src/driver_node.cpp.s
+.PHONY : src/driver_node.s
 
 # target to generate assembly for a file
-src/publisher_node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/publisher_node.cpp.s
-.PHONY : src/publisher_node.cpp.s
+src/driver_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/driver.dir/build.make CMakeFiles/driver.dir/src/driver_node.cpp.s
+.PHONY : src/driver_node.cpp.s
+
+src/lap_time_action_cli.o: src/lap_time_action_cli.cpp.o
+.PHONY : src/lap_time_action_cli.o
+
+# target to build an object file
+src/lap_time_action_cli.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lap_timer_client.dir/build.make CMakeFiles/lap_timer_client.dir/src/lap_time_action_cli.cpp.o
+.PHONY : src/lap_time_action_cli.cpp.o
+
+src/lap_time_action_cli.i: src/lap_time_action_cli.cpp.i
+.PHONY : src/lap_time_action_cli.i
+
+# target to preprocess a source file
+src/lap_time_action_cli.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lap_timer_client.dir/build.make CMakeFiles/lap_timer_client.dir/src/lap_time_action_cli.cpp.i
+.PHONY : src/lap_time_action_cli.cpp.i
+
+src/lap_time_action_cli.s: src/lap_time_action_cli.cpp.s
+.PHONY : src/lap_time_action_cli.s
+
+# target to generate assembly for a file
+src/lap_time_action_cli.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lap_timer_client.dir/build.make CMakeFiles/lap_timer_client.dir/src/lap_time_action_cli.cpp.s
+.PHONY : src/lap_time_action_cli.cpp.s
+
+src/lap_time_action_srv.o: src/lap_time_action_srv.cpp.o
+.PHONY : src/lap_time_action_srv.o
+
+# target to build an object file
+src/lap_time_action_srv.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lap_timer_server.dir/build.make CMakeFiles/lap_timer_server.dir/src/lap_time_action_srv.cpp.o
+.PHONY : src/lap_time_action_srv.cpp.o
+
+src/lap_time_action_srv.i: src/lap_time_action_srv.cpp.i
+.PHONY : src/lap_time_action_srv.i
+
+# target to preprocess a source file
+src/lap_time_action_srv.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lap_timer_server.dir/build.make CMakeFiles/lap_timer_server.dir/src/lap_time_action_srv.cpp.i
+.PHONY : src/lap_time_action_srv.cpp.i
+
+src/lap_time_action_srv.s: src/lap_time_action_srv.cpp.s
+.PHONY : src/lap_time_action_srv.s
+
+# target to generate assembly for a file
+src/lap_time_action_srv.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lap_timer_server.dir/build.make CMakeFiles/lap_timer_server.dir/src/lap_time_action_srv.cpp.s
+.PHONY : src/lap_time_action_srv.cpp.s
 
 # Help Target
 help:
@@ -249,10 +323,18 @@ help:
 	@echo "... test"
 	@echo "... session_09_uninstall"
 	@echo "... uninstall"
-	@echo "... talker"
-	@echo "... src/publisher_node.o"
-	@echo "... src/publisher_node.i"
-	@echo "... src/publisher_node.s"
+	@echo "... driver"
+	@echo "... lap_timer_client"
+	@echo "... lap_timer_server"
+	@echo "... src/driver_node.o"
+	@echo "... src/driver_node.i"
+	@echo "... src/driver_node.s"
+	@echo "... src/lap_time_action_cli.o"
+	@echo "... src/lap_time_action_cli.i"
+	@echo "... src/lap_time_action_cli.s"
+	@echo "... src/lap_time_action_srv.o"
+	@echo "... src/lap_time_action_srv.i"
+	@echo "... src/lap_time_action_srv.s"
 .PHONY : help
 
 

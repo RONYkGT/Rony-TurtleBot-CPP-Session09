@@ -1,0 +1,51 @@
+[0.008s] Invoking command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09 -- -j8 -l8
+[0.062s] [ 25%] [32mBuilding CXX object CMakeFiles/lap_timer_server.dir/src/lap_time_action_srv.cpp.o[0m
+[0.063s] [ 75%] Built target driver
+[2.331s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_srv.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse LapTimeActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const turtle_controller_interfaces::action::MeasureLapTime_Goal_<std::allocator<void> > >)[m[K’:
+[2.331s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_srv.cpp:44:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.331s]    44 |     [01;35m[Kstd::shared_ptr<const MeasureLapTime::Goal> goal[m[K)
+[2.331s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[2.332s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_srv.cpp:[m[K In member function ‘[01m[Kvoid LapTimeActionServer::handle_accepted(std::shared_ptr<rclcpp_action::ServerGoalHandle<turtle_controller_interfaces::action::MeasureLapTime> >)[m[K’:
+[2.332s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_srv.cpp:62:64:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+[2.332s]    62 |     std::thread{std::bind(&LapTimeActionServer::execute, this, [01;31m[K_1[m[K), goal_handle}.detach();
+[2.332s]       |                                                                [01;31m[K^~[m[K
+[2.333s]       |                                                                [32m[Kstd::placeholders::_1[m[K
+[2.333s] In file included from [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_srv.cpp:2[m[K:
+[2.333s] [01m[K/usr/include/c++/11/functional:225:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+[2.333s]   225 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+[2.333s]       |                                  [01;36m[K^~[m[K
+[2.333s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_srv.cpp:62:80:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::thread::thread(<brace-enclosed initializer list>)[m[K’
+[2.333s]    62 |     std::thread{std::bind(&LapTimeActionServer::execute, this, _1), goal_handle[01;31m[K}[m[K.detach();
+[2.333s]       |                                                                                [01;31m[K^[m[K
+[2.333s] In file included from [01m[K/usr/include/c++/11/future:48[m[K,
+[2.333s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[2.333s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.333s]                  from [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_srv.cpp:5[m[K:
+[2.333s] [01m[K/usr/include/c++/11/bits/std_thread.h:127:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Callable, class ... _Args, class> std::thread::thread(_Callable&&, _Args&& ...)[m[K’
+[2.333s]   127 |       [01;36m[Kthread[m[K(_Callable&& __f, _Args&&... __args)
+[2.333s]       |       [01;36m[K^~~~~~[m[K
+[2.334s] [01m[K/usr/include/c++/11/bits/std_thread.h:127:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.334s] [01m[K/usr/include/c++/11/bits/std_thread.h:157:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::thread::thread(std::thread&&)[m[K’
+[2.334s]   157 |     [01;36m[Kthread[m[K(thread&& __t) noexcept
+[2.334s]       |     [01;36m[K^~~~~~[m[K
+[2.334s] [01m[K/usr/include/c++/11/bits/std_thread.h:157:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[2.334s] [01m[K/usr/include/c++/11/bits/std_thread.h:121:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::thread::thread()[m[K’
+[2.334s]   121 |     [01;36m[Kthread[m[K() noexcept = default;
+[2.334s]       |     [01;36m[K^~~~~~[m[K
+[2.334s] [01m[K/usr/include/c++/11/bits/std_thread.h:121:5:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[2.337s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_srv.cpp:[m[K In member function ‘[01m[Kvoid LapTimeActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<turtle_controller_interfaces::action::MeasureLapTime> >)[m[K’:
+[2.338s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_srv.cpp:73:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct turtle_controller_interfaces::action::MeasureLapTime_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtle_controller_interfaces::action::MeasureLapTime_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Klap_time[m[K’; did you mean ‘[01m[Ktotal_time[m[K’?
+[2.338s]    73 |         result->[01;31m[Klap_time[m[K = 0.0;
+[2.338s]       |                 [01;31m[K^~~~~~~~[m[K
+[2.338s]       |                 [32m[Ktotal_time[m[K
+[2.342s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_srv.cpp:80:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct turtle_controller_interfaces::action::MeasureLapTime_Feedback_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtle_controller_interfaces::action::MeasureLapTime_Feedback_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kcurrent_time[m[K’
+[2.342s]    80 |       feedback->[01;31m[Kcurrent_time[m[K = this->now().seconds() - start_time_;
+[2.342s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[2.342s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_srv.cpp:86:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct turtle_controller_interfaces::action::MeasureLapTime_Result_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtle_controller_interfaces::action::MeasureLapTime_Result_<std::allocator<void> >[m[K’} has no member named ‘[01m[Klap_time[m[K’; did you mean ‘[01m[Ktotal_time[m[K’?
+[2.343s]    86 |     result->[01;31m[Klap_time[m[K = this->now().seconds() - start_time_;
+[2.343s]       |             [01;31m[K^~~~~~~~[m[K
+[2.343s]       |             [32m[Ktotal_time[m[K
+[4.712s] gmake[2]: *** [CMakeFiles/lap_timer_server.dir/build.make:76: CMakeFiles/lap_timer_server.dir/src/lap_time_action_srv.cpp.o] Error 1
+[4.712s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/lap_timer_server.dir/all] Error 2
+[4.713s] gmake: *** [Makefile:146: all] Error 2
+[4.714s] Invoked command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09 -- -j8 -l8

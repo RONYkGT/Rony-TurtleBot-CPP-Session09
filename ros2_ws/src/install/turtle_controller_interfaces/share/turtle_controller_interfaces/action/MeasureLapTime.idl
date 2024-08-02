@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from turtle_controller_interfaces/action/MeasureLapTime.action
+// generated code does not contain a copyright notice
+
+
+module turtle_controller_interfaces {
+  module action {
+    struct MeasureLapTime_Goal {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct MeasureLapTime_Result {
+      float total_time;
+    };
+    struct MeasureLapTime_Feedback {
+      float elapsed_time;
+    };
+  };
+};

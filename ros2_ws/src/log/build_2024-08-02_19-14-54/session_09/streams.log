@@ -1,0 +1,38 @@
+[0.007s] Invoking command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09 -- -j8 -l8
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target lap_timer_client[0m
+[0.070s] [ 66%] Built target driver
+[0.070s] [ 66%] Built target lap_timer_server
+[0.081s] [ 83%] [32mBuilding CXX object CMakeFiles/lap_timer_client.dir/src/lap_time_action_cli.cpp.o[0m
+[2.105s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_cli.cpp:97:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[2.105s]    97 | }
+[2.106s]       |  [01;31m[K^[m[K
+[2.106s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_cli.cpp:14:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.106s]    14 | [01;36m[K{[m[K
+[2.106s]       | [01;36m[K^[m[K
+[2.116s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_cli.cpp:[m[K In member function ‘[01m[Kvoid LapTimeActionClient::send_goal()[m[K’:
+[2.116s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_cli.cpp:46:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_response_callback[m[K’ is not a member of ‘[01m[KLapTimeActionClient[m[K’
+[2.116s]    46 |     .goal_response_callback(std::bind(&LapTimeActionClient::[01;31m[Kgoal_response_callback[m[K, this, std::placeholders::_1))
+[2.116s]       |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.116s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_cli.cpp:47:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kfeedback_callback[m[K’ is not a member of ‘[01m[KLapTimeActionClient[m[K’
+[2.116s]    47 |     .feedback_callback(std::bind(&LapTimeActionClient::[01;31m[Kfeedback_callback[m[K, this, std::placeholders::_1, std::placeholders::_2))
+[2.116s]       |                                                        [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.117s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_cli.cpp:48:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult_callback[m[K’ is not a member of ‘[01m[KLapTimeActionClient[m[K’
+[2.117s]    48 |     .result_callback(std::bind(&LapTimeActionClient::[01;31m[Kresult_callback[m[K, this, std::placeholders::_1))
+[2.117s]       |                                                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.117s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_cli.cpp:52:3:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[2.117s]    52 |   [01;31m[K{[m[K
+[2.117s]       |   [01;31m[K^[m[K
+[2.117s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_cli.cpp:65:3:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[2.117s]    65 |   [01;31m[K{[m[K
+[2.117s]       |   [01;31m[K^[m[K
+[2.117s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_cli.cpp:70:3:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[2.117s]    70 |   [01;31m[K{[m[K
+[2.117s]       |   [01;31m[K^[m[K
+[2.119s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_cli.cpp:[m[K At global scope:
+[2.119s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_cli.cpp:97:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[2.119s]    97 | }
+[2.119s]       |  [01;31m[K^[m[K
+[2.600s] gmake[2]: *** [CMakeFiles/lap_timer_client.dir/build.make:76: CMakeFiles/lap_timer_client.dir/src/lap_time_action_cli.cpp.o] Error 1
+[2.600s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/lap_timer_client.dir/all] Error 2
+[2.600s] gmake: *** [Makefile:146: all] Error 2
+[2.602s] Invoked command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09 -- -j8 -l8

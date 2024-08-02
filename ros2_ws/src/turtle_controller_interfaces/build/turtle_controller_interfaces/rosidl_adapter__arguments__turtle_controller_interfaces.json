@@ -1,0 +1,7 @@
+{
+  "package_name": "turtle_controller_interfaces",
+  "non_idl_tuples": [
+    "/home/rony/Documents/inmind/Session07/Rony-TurtleBot-Session7/ros2_ws/src/turtle_controller_interfaces:action/MeasureLapTime.action",
+    "/home/rony/Documents/inmind/Session07/Rony-TurtleBot-Session7/ros2_ws/src/turtle_controller_interfaces:srv/FindClosestWall.srv"
+  ]
+}

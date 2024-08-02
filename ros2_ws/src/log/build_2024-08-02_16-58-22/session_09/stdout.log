@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target lap_timer_server[0m
+[ 50%] Built target driver
+[ 75%] [32mBuilding CXX object CMakeFiles/lap_timer_server.dir/src/lap_time_action_srv.cpp.o[0m

@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/turtle_controller_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_controller_interfaces/action/detail/measure_lap_time__type_support.c.o"
+  "CMakeFiles/turtle_controller_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_controller_interfaces/action/detail/measure_lap_time__type_support.c.o.d"
+  "CMakeFiles/turtle_controller_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_controller_interfaces/srv/detail/find_closest_wall__type_support.c.o"
+  "CMakeFiles/turtle_controller_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_controller_interfaces/srv/detail/find_closest_wall__type_support.c.o.d"
+  "libturtle_controller_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libturtle_controller_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/turtle_controller_interfaces/action/detail/measure_lap_time__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/turtle_controller_interfaces/action/detail/measure_lap_time__type_support.c"
+  "rosidl_typesupport_introspection_c/turtle_controller_interfaces/srv/detail/find_closest_wall__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/turtle_controller_interfaces/srv/detail/find_closest_wall__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/turtle_controller_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
