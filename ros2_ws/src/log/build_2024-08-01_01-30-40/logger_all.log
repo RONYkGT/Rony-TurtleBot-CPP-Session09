@@ -1,0 +1,127 @@
+[0.082s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.082s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x74ebac407fa0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74ebac4079a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74ebac4079a0>>)
+[0.112s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.113s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rony/Documents/inmind/Session09/ros2_ws/src'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(session_09) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(session_09) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(session_09) by extension 'ignore_ament_install'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(session_09) by extensions ['colcon_pkg']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(session_09) by extension 'colcon_pkg'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(session_09) by extensions ['colcon_meta']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(session_09) by extension 'colcon_meta'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(session_09) by extensions ['ros']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(session_09) by extension 'ros'
+[0.129s] DEBUG:colcon.colcon_core.package_identification:Package 'session_09' with type 'ros.ament_cmake' and name 'session_09'
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.144s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.145s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/rony/Documents/inmind/Session09/ros2_ws/src/install
+[0.146s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 278 installed packages in /opt/ros/humble
+[0.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'session_09' build argument 'cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'session_09' build argument 'cmake_target' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'session_09' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'session_09' build argument 'cmake_clean_cache' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'session_09' build argument 'cmake_clean_first' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'session_09' build argument 'cmake_force_configure' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'session_09' build argument 'ament_cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'session_09' build argument 'catkin_cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'session_09' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.175s] DEBUG:colcon.colcon_core.verb:Building package 'session_09' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09', 'merge_install': False, 'path': '/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09', 'symlink_install': False, 'test_result_base': None}
+[0.175s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.177s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.177s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09' with build type 'ament_cmake'
+[0.177s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09'
+[0.178s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.179s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.179s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.186s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09 -- -j8 -l8
+[7.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09 -- -j8 -l8
+[7.754s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09
+[7.765s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(session_09)
+[7.766s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09
+[7.768s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09' for CMake module files
+[7.768s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09' for CMake config files
+[7.769s] Level 1:colcon.colcon_core.shell:create_environment_hook('session_09', 'cmake_prefix_path')
+[7.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/hook/cmake_prefix_path.ps1'
+[7.770s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/hook/cmake_prefix_path.dsv'
+[7.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/hook/cmake_prefix_path.sh'
+[7.771s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/lib'
+[7.772s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/bin'
+[7.772s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/lib/pkgconfig/session_09.pc'
+[7.772s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/lib/python3.10/site-packages'
+[7.772s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/bin'
+[7.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/package.ps1'
+[7.773s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/package.dsv'
+[7.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/package.sh'
+[7.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/package.bash'
+[7.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/package.zsh'
+[7.775s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/colcon-core/packages/session_09)
+[7.795s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(session_09)
+[7.796s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09' for CMake module files
+[7.796s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09' for CMake config files
+[7.796s] Level 1:colcon.colcon_core.shell:create_environment_hook('session_09', 'cmake_prefix_path')
+[7.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/hook/cmake_prefix_path.ps1'
+[7.797s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/hook/cmake_prefix_path.dsv'
+[7.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/hook/cmake_prefix_path.sh'
+[7.797s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/lib'
+[7.797s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/bin'
+[7.797s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/lib/pkgconfig/session_09.pc'
+[7.797s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/lib/python3.10/site-packages'
+[7.798s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/bin'
+[7.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/package.ps1'
+[7.798s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/package.dsv'
+[7.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/package.sh'
+[7.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/package.bash'
+[7.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/package.zsh'
+[7.799s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/colcon-core/packages/session_09)
+[7.800s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.800s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.800s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.800s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.805s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.805s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.805s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.813s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.814s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/local_setup.ps1'
+[7.815s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/_local_setup_util_ps1.py'
+[7.816s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/setup.ps1'
+[7.817s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/local_setup.sh'
+[7.817s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/_local_setup_util_sh.py'
+[7.817s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/setup.sh'
+[7.818s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/local_setup.bash'
+[7.819s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/setup.bash'
+[7.819s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/local_setup.zsh'
+[7.820s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/setup.zsh'

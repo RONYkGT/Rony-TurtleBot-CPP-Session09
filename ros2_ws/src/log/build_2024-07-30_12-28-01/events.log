@@ -1,0 +1,118 @@
+[0.000000] (-) TimerEvent: {}
+[0.000267] (session_09) JobQueued: {'identifier': 'session_09', 'dependencies': OrderedDict()}
+[0.000467] (session_09) JobStarted: {'identifier': 'session_09'}
+[0.012472] (session_09) JobProgress: {'identifier': 'session_09', 'progress': 'cmake'}
+[0.013677] (session_09) JobProgress: {'identifier': 'session_09', 'progress': 'build'}
+[0.014336] (session_09) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09', '--', '-j8', '-l8'], 'cwd': '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'rony'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rony/Documents/inmind/Session07/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller_interfaces/lib:/home/rony/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rony'), ('OLDPWD', '/home/rony/Documents/inmind/Session09/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('HOMEBREW_PREFIX', '/home/linuxbrew/.linuxbrew'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('SYSTEMD_EXEC_PID', '3771'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rony/Documents/inmind/Session09/ros2_ws/src/install:/home/rony/Documents/inmind/Session07/Rony-TurtleBot-Session7/ros2_ws/src/install:/home/rony/Rony-TurtleBot-Session7/ros2_ws/src/install:/home/rony/Documents/inmind/Session09/ros2_ws/install'), ('INFOPATH', '/home/linuxbrew/.linuxbrew/share/info:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rony'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rony'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/rony/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rony-IdeaPad-3-15ITL6:@/tmp/.ICE-unix/2045,unix/rony-IdeaPad-3-15ITL6:/tmp/.ICE-unix/2045'), ('HOMEBREW_CELLAR', '/home/linuxbrew/.linuxbrew/Cellar'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('MONETARY', 'en_US-UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8eb359a8_2dc8_4495_96e8_d22591ef5e0a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ID7HR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09:/home/rony/Documents/inmind/Session07/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller_interfaces:/home/rony/Documents/inmind/Session07/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller:/home/rony/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller_interfaces:/home/rony/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller:/home/rony/Documents/inmind/Session09/ros2_ws/install/session_09:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rony/Documents/inmind/Session07/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller_interfaces/local/lib/python3.10/dist-packages:/home/rony/Documents/inmind/Session07/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller/lib/python3.10/site-packages:/home/rony/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller_interfaces/local/lib/python3.10/dist-packages:/home/rony/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HOMEBREW_REPOSITORY', '/home/linuxbrew/.linuxbrew/Homebrew'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('MANPATH', '/home/linuxbrew/.linuxbrew/share/man:'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09:/home/rony/Documents/inmind/Session07/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller_interfaces:/home/rony/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller_interfaces:/home/rony/Documents/inmind/Session09/ros2_ws/install/session_09:/home/rony/Documents/inmind/Session07/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller:/home/rony/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller:/opt/ros/humble')]), 'shell': False}
+[0.079613] (session_09) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.097502] (session_09) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_node.cpp.o\x1b[0m\n'}
+[0.099813] (-) TimerEvent: {}
+[0.200111] (-) TimerEvent: {}
+[0.300567] (-) TimerEvent: {}
+[0.401009] (-) TimerEvent: {}
+[0.501447] (-) TimerEvent: {}
+[0.601835] (-) TimerEvent: {}
+[0.702161] (-) TimerEvent: {}
+[0.802666] (-) TimerEvent: {}
+[0.903414] (-) TimerEvent: {}
+[1.003722] (-) TimerEvent: {}
+[1.104336] (-) TimerEvent: {}
+[1.205609] (-) TimerEvent: {}
+[1.306886] (-) TimerEvent: {}
+[1.407574] (-) TimerEvent: {}
+[1.508272] (-) TimerEvent: {}
+[1.608995] (-) TimerEvent: {}
+[1.709892] (-) TimerEvent: {}
+[1.810219] (-) TimerEvent: {}
+[1.910594] (-) TimerEvent: {}
+[2.010959] (-) TimerEvent: {}
+[2.111321] (-) TimerEvent: {}
+[2.211695] (-) TimerEvent: {}
+[2.312059] (-) TimerEvent: {}
+[2.413064] (-) TimerEvent: {}
+[2.513408] (-) TimerEvent: {}
+[2.613766] (-) TimerEvent: {}
+[2.714186] (-) TimerEvent: {}
+[2.814619] (-) TimerEvent: {}
+[2.915014] (-) TimerEvent: {}
+[3.015404] (-) TimerEvent: {}
+[3.115753] (-) TimerEvent: {}
+[3.216119] (-) TimerEvent: {}
+[3.316806] (-) TimerEvent: {}
+[3.417255] (-) TimerEvent: {}
+[3.517599] (-) TimerEvent: {}
+[3.617963] (-) TimerEvent: {}
+[3.718563] (-) TimerEvent: {}
+[3.819479] (-) TimerEvent: {}
+[3.920367] (-) TimerEvent: {}
+[4.020726] (-) TimerEvent: {}
+[4.121130] (-) TimerEvent: {}
+[4.221508] (-) TimerEvent: {}
+[4.321856] (-) TimerEvent: {}
+[4.422202] (-) TimerEvent: {}
+[4.522586] (-) TimerEvent: {}
+[4.622913] (-) TimerEvent: {}
+[4.723277] (-) TimerEvent: {}
+[4.823677] (-) TimerEvent: {}
+[4.924101] (-) TimerEvent: {}
+[5.024827] (-) TimerEvent: {}
+[5.125215] (-) TimerEvent: {}
+[5.225562] (-) TimerEvent: {}
+[5.325978] (-) TimerEvent: {}
+[5.426274] (-) TimerEvent: {}
+[5.526565] (-) TimerEvent: {}
+[5.626863] (-) TimerEvent: {}
+[5.727352] (-) TimerEvent: {}
+[5.828073] (-) TimerEvent: {}
+[5.928585] (-) TimerEvent: {}
+[6.028958] (-) TimerEvent: {}
+[6.129245] (-) TimerEvent: {}
+[6.229582] (-) TimerEvent: {}
+[6.329907] (-) TimerEvent: {}
+[6.430191] (-) TimerEvent: {}
+[6.530657] (-) TimerEvent: {}
+[6.630984] (-) TimerEvent: {}
+[6.731510] (-) TimerEvent: {}
+[6.832046] (-) TimerEvent: {}
+[6.932348] (-) TimerEvent: {}
+[7.032708] (-) TimerEvent: {}
+[7.133013] (-) TimerEvent: {}
+[7.233311] (-) TimerEvent: {}
+[7.333590] (-) TimerEvent: {}
+[7.433888] (-) TimerEvent: {}
+[7.534211] (-) TimerEvent: {}
+[7.634630] (-) TimerEvent: {}
+[7.735508] (-) TimerEvent: {}
+[7.836435] (-) TimerEvent: {}
+[7.852388] (session_09) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[7.936545] (-) TimerEvent: {}
+[8.037176] (-) TimerEvent: {}
+[8.137950] (-) TimerEvent: {}
+[8.238341] (-) TimerEvent: {}
+[8.338694] (-) TimerEvent: {}
+[8.379680] (session_09) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[8.391607] (session_09) CommandEnded: {'returncode': 0}
+[8.412701] (session_09) JobProgress: {'identifier': 'session_09', 'progress': 'install'}
+[8.420209] (session_09) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09'], 'cwd': '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'rony'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rony/Documents/inmind/Session07/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller_interfaces/lib:/home/rony/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rony'), ('OLDPWD', '/home/rony/Documents/inmind/Session09/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('HOMEBREW_PREFIX', '/home/linuxbrew/.linuxbrew'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('SYSTEMD_EXEC_PID', '3771'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rony/Documents/inmind/Session09/ros2_ws/src/install:/home/rony/Documents/inmind/Session07/Rony-TurtleBot-Session7/ros2_ws/src/install:/home/rony/Rony-TurtleBot-Session7/ros2_ws/src/install:/home/rony/Documents/inmind/Session09/ros2_ws/install'), ('INFOPATH', '/home/linuxbrew/.linuxbrew/share/info:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rony'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rony'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/rony/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rony-IdeaPad-3-15ITL6:@/tmp/.ICE-unix/2045,unix/rony-IdeaPad-3-15ITL6:/tmp/.ICE-unix/2045'), ('HOMEBREW_CELLAR', '/home/linuxbrew/.linuxbrew/Cellar'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('MONETARY', 'en_US-UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8eb359a8_2dc8_4495_96e8_d22591ef5e0a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ID7HR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09:/home/rony/Documents/inmind/Session07/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller_interfaces:/home/rony/Documents/inmind/Session07/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller:/home/rony/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller_interfaces:/home/rony/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller:/home/rony/Documents/inmind/Session09/ros2_ws/install/session_09:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rony/Documents/inmind/Session07/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller_interfaces/local/lib/python3.10/dist-packages:/home/rony/Documents/inmind/Session07/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller/lib/python3.10/site-packages:/home/rony/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller_interfaces/local/lib/python3.10/dist-packages:/home/rony/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HOMEBREW_REPOSITORY', '/home/linuxbrew/.linuxbrew/Homebrew'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('MANPATH', '/home/linuxbrew/.linuxbrew/share/man:'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09:/home/rony/Documents/inmind/Session07/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller_interfaces:/home/rony/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller_interfaces:/home/rony/Documents/inmind/Session09/ros2_ws/install/session_09:/home/rony/Documents/inmind/Session07/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller:/home/rony/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller:/opt/ros/humble')]), 'shell': False}
+[8.430418] (session_09) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.430873] (session_09) StdoutLine: {'line': b'-- Installing: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/lib/session_09/talker\n'}
+[8.434429] (session_09) StdoutLine: {'line': b'-- Set runtime path of "/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/lib/session_09/talker" to ""\n'}
+[8.434691] (session_09) StdoutLine: {'line': b'-- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/ament_index/resource_index/package_run_dependencies/session_09\n'}
+[8.434768] (session_09) StdoutLine: {'line': b'-- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/ament_index/resource_index/parent_prefix_path/session_09\n'}
+[8.434822] (session_09) StdoutLine: {'line': b'-- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/environment/ament_prefix_path.sh\n'}
+[8.434871] (session_09) StdoutLine: {'line': b'-- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/environment/ament_prefix_path.dsv\n'}
+[8.434926] (session_09) StdoutLine: {'line': b'-- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/environment/path.sh\n'}
+[8.435041] (session_09) StdoutLine: {'line': b'-- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/environment/path.dsv\n'}
+[8.435134] (session_09) StdoutLine: {'line': b'-- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/local_setup.bash\n'}
+[8.435194] (session_09) StdoutLine: {'line': b'-- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/local_setup.sh\n'}
+[8.435257] (session_09) StdoutLine: {'line': b'-- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/local_setup.zsh\n'}
+[8.435313] (session_09) StdoutLine: {'line': b'-- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/local_setup.dsv\n'}
+[8.435373] (session_09) StdoutLine: {'line': b'-- Installing: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/package.dsv\n'}
+[8.435472] (session_09) StdoutLine: {'line': b'-- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/ament_index/resource_index/packages/session_09\n'}
+[8.435533] (session_09) StdoutLine: {'line': b'-- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/cmake/session_09Config.cmake\n'}
+[8.435590] (session_09) StdoutLine: {'line': b'-- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/cmake/session_09Config-version.cmake\n'}
+[8.435652] (session_09) StdoutLine: {'line': b'-- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/package.xml\n'}
+[8.437166] (session_09) CommandEnded: {'returncode': 0}
+[8.438760] (-) TimerEvent: {}
+[8.483632] (session_09) JobEnded: {'identifier': 'session_09', 'rc': 0}
+[8.484498] (-) EventReactorShutdown: {}

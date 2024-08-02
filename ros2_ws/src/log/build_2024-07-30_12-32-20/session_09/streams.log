@@ -1,0 +1,26 @@
+[0.010s] Invoking command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rony/Documents/inmind/Session07/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller:/home/rony/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller:/opt/ros/humble /usr/bin/cmake --build /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09 -- -j8 -l8
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.068s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_node.cpp.o[0m
+[8.064s] [100%] [32m[1mLinking CXX executable talker[0m
+[8.589s] [100%] Built target talker
+[8.600s] Invoked command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rony/Documents/inmind/Session07/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller:/home/rony/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller:/opt/ros/humble /usr/bin/cmake --build /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09 -- -j8 -l8
+[8.632s] Invoking command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rony/Documents/inmind/Session07/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller:/home/rony/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller:/opt/ros/humble /usr/bin/cmake --install /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09
+[8.638s] -- Install configuration: ""
+[8.638s] -- Installing: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/lib/session_09/talker
+[8.643s] -- Set runtime path of "/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/lib/session_09/talker" to ""
+[8.643s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/ament_index/resource_index/package_run_dependencies/session_09
+[8.643s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/ament_index/resource_index/parent_prefix_path/session_09
+[8.643s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/environment/ament_prefix_path.sh
+[8.643s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/environment/ament_prefix_path.dsv
+[8.643s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/environment/path.sh
+[8.643s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/environment/path.dsv
+[8.644s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/local_setup.bash
+[8.644s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/local_setup.sh
+[8.644s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/local_setup.zsh
+[8.644s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/local_setup.dsv
+[8.644s] -- Installing: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/package.dsv
+[8.644s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/ament_index/resource_index/packages/session_09
+[8.644s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/cmake/session_09Config.cmake
+[8.644s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/cmake/session_09Config-version.cmake
+[8.644s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/package.xml
+[8.645s] Invoked command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rony/Documents/inmind/Session07/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller:/home/rony/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller:/opt/ros/humble /usr/bin/cmake --install /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09

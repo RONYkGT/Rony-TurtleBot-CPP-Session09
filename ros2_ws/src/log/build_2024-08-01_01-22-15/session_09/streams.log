@@ -1,0 +1,26 @@
+[0.009s] Invoking command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09 -- -j8 -l8
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.074s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_node.cpp.o[0m
+[6.037s] [100%] [32m[1mLinking CXX executable talker[0m
+[6.416s] [100%] Built target talker
+[6.424s] Invoked command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09 -- -j8 -l8
+[6.452s] Invoking command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09
+[6.457s] -- Install configuration: ""
+[6.458s] -- Installing: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/lib/session_09/talker
+[6.461s] -- Set runtime path of "/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/lib/session_09/talker" to ""
+[6.462s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/ament_index/resource_index/package_run_dependencies/session_09
+[6.462s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/ament_index/resource_index/parent_prefix_path/session_09
+[6.462s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/environment/ament_prefix_path.sh
+[6.462s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/environment/ament_prefix_path.dsv
+[6.462s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/environment/path.sh
+[6.462s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/environment/path.dsv
+[6.462s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/local_setup.bash
+[6.462s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/local_setup.sh
+[6.462s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/local_setup.zsh
+[6.462s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/local_setup.dsv
+[6.462s] -- Installing: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/package.dsv
+[6.462s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/ament_index/resource_index/packages/session_09
+[6.462s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/cmake/session_09Config.cmake
+[6.462s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/cmake/session_09Config-version.cmake
+[6.462s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/package.xml
+[6.464s] Invoked command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09

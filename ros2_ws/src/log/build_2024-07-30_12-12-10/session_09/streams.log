@@ -1,0 +1,10 @@
+[0.031s] Invoking command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rony/Documents/inmind/Session07/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller:/home/rony/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller:/opt/ros/humble /usr/bin/cmake --build /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09 -- -j8 -l8
+[0.158s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_node.cpp.o[0m
+[0.586s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/publisher_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/laser_scan.hpp: No such file or directory
+[0.587s]     2 | #include [01;31m[K"sensor_msgs/msg/laser_scan.hpp"[m[K
+[0.587s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.587s] compilation terminated.
+[0.592s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_node.cpp.o] Error 1
+[0.593s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+[0.593s] gmake: *** [Makefile:146: all] Error 2
+[0.598s] Invoked command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rony/Documents/inmind/Session07/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller:/home/rony/Rony-TurtleBot-Session7/ros2_ws/src/install/turtle_controller:/opt/ros/humble /usr/bin/cmake --build /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09 -- -j8 -l8

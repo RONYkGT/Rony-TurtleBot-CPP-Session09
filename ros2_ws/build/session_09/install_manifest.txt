@@ -1,0 +1,15 @@
+/home/rony/Documents/inmind/Session09/ros2_ws/install/session_09/share/ament_index/resource_index/package_run_dependencies/session_09
+/home/rony/Documents/inmind/Session09/ros2_ws/install/session_09/share/ament_index/resource_index/parent_prefix_path/session_09
+/home/rony/Documents/inmind/Session09/ros2_ws/install/session_09/share/session_09/environment/ament_prefix_path.sh
+/home/rony/Documents/inmind/Session09/ros2_ws/install/session_09/share/session_09/environment/ament_prefix_path.dsv
+/home/rony/Documents/inmind/Session09/ros2_ws/install/session_09/share/session_09/environment/path.sh
+/home/rony/Documents/inmind/Session09/ros2_ws/install/session_09/share/session_09/environment/path.dsv
+/home/rony/Documents/inmind/Session09/ros2_ws/install/session_09/share/session_09/local_setup.bash
+/home/rony/Documents/inmind/Session09/ros2_ws/install/session_09/share/session_09/local_setup.sh
+/home/rony/Documents/inmind/Session09/ros2_ws/install/session_09/share/session_09/local_setup.zsh
+/home/rony/Documents/inmind/Session09/ros2_ws/install/session_09/share/session_09/local_setup.dsv
+/home/rony/Documents/inmind/Session09/ros2_ws/install/session_09/share/session_09/package.dsv
+/home/rony/Documents/inmind/Session09/ros2_ws/install/session_09/share/ament_index/resource_index/packages/session_09
+/home/rony/Documents/inmind/Session09/ros2_ws/install/session_09/share/session_09/cmake/session_09Config.cmake
+/home/rony/Documents/inmind/Session09/ros2_ws/install/session_09/share/session_09/cmake/session_09Config-version.cmake
+/home/rony/Documents/inmind/Session09/ros2_ws/install/session_09/share/session_09/package.xml

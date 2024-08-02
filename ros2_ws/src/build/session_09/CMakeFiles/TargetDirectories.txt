@@ -1,0 +1,10 @@
+/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09/CMakeFiles/uninstall.dir
+/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09/CMakeFiles/session_09_uninstall.dir
+/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09/CMakeFiles/talker.dir
+/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09/CMakeFiles/test.dir
+/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09/CMakeFiles/edit_cache.dir
+/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09/CMakeFiles/rebuild_cache.dir
+/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09/CMakeFiles/list_install_components.dir
+/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09/CMakeFiles/install.dir
+/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09/CMakeFiles/install/local.dir
+/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09/CMakeFiles/install/strip.dir

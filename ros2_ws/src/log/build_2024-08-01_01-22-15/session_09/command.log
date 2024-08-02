@@ -1,0 +1,4 @@
+Invoking command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09 -- -j8 -l8
+Invoked command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09 -- -j8 -l8
+Invoking command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09
+Invoked command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09

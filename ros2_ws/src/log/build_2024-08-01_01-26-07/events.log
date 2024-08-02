@@ -1,0 +1,113 @@
+[0.000000] (-) TimerEvent: {}
+[0.000350] (session_09) JobQueued: {'identifier': 'session_09', 'dependencies': OrderedDict()}
+[0.000477] (session_09) JobStarted: {'identifier': 'session_09'}
+[0.005813] (session_09) JobProgress: {'identifier': 'session_09', 'progress': 'cmake'}
+[0.006425] (session_09) JobProgress: {'identifier': 'session_09', 'progress': 'build'}
+[0.006911] (session_09) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09', '--', '-j8', '-l8'], 'cwd': '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'rony'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rony'), ('OLDPWD', '/home/rony/Documents/inmind/Session09'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('HOMEBREW_PREFIX', '/home/linuxbrew/.linuxbrew'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('SYSTEMD_EXEC_PID', '2124'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rony/Documents/inmind/Session09/ros2_ws/src/install'), ('INFOPATH', '/home/linuxbrew/.linuxbrew/share/info:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rony'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rony'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/rony/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rony-IdeaPad-3-15ITL6:@/tmp/.ICE-unix/2101,unix/rony-IdeaPad-3-15ITL6:/tmp/.ICE-unix/2101'), ('HOMEBREW_CELLAR', '/home/linuxbrew/.linuxbrew/Cellar'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('MONETARY', 'en_US-UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/239b6d20_f8de_4de8_9117_7dbcc00410ab'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MWNTR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.425'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HOMEBREW_REPOSITORY', '/home/linuxbrew/.linuxbrew/Homebrew'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('MANPATH', '/home/linuxbrew/.linuxbrew/share/man:'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09:/opt/ros/humble')]), 'shell': False}
+[0.045336] (session_09) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.065181] (session_09) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_node.cpp.o\x1b[0m\n'}
+[0.099621] (-) TimerEvent: {}
+[0.199976] (-) TimerEvent: {}
+[0.300321] (-) TimerEvent: {}
+[0.400620] (-) TimerEvent: {}
+[0.500947] (-) TimerEvent: {}
+[0.601626] (-) TimerEvent: {}
+[0.702112] (-) TimerEvent: {}
+[0.802453] (-) TimerEvent: {}
+[0.903002] (-) TimerEvent: {}
+[1.003410] (-) TimerEvent: {}
+[1.103880] (-) TimerEvent: {}
+[1.204411] (-) TimerEvent: {}
+[1.304776] (-) TimerEvent: {}
+[1.405091] (-) TimerEvent: {}
+[1.505432] (-) TimerEvent: {}
+[1.605819] (-) TimerEvent: {}
+[1.706183] (-) TimerEvent: {}
+[1.806507] (-) TimerEvent: {}
+[1.906866] (-) TimerEvent: {}
+[2.007223] (-) TimerEvent: {}
+[2.107526] (-) TimerEvent: {}
+[2.207858] (-) TimerEvent: {}
+[2.308150] (-) TimerEvent: {}
+[2.408471] (-) TimerEvent: {}
+[2.508774] (-) TimerEvent: {}
+[2.609088] (-) TimerEvent: {}
+[2.709397] (-) TimerEvent: {}
+[2.809772] (-) TimerEvent: {}
+[2.910070] (-) TimerEvent: {}
+[3.010403] (-) TimerEvent: {}
+[3.110733] (-) TimerEvent: {}
+[3.211079] (-) TimerEvent: {}
+[3.311434] (-) TimerEvent: {}
+[3.411766] (-) TimerEvent: {}
+[3.512066] (-) TimerEvent: {}
+[3.612345] (-) TimerEvent: {}
+[3.712698] (-) TimerEvent: {}
+[3.812982] (-) TimerEvent: {}
+[3.913383] (-) TimerEvent: {}
+[4.013851] (-) TimerEvent: {}
+[4.114296] (-) TimerEvent: {}
+[4.214642] (-) TimerEvent: {}
+[4.315059] (-) TimerEvent: {}
+[4.415424] (-) TimerEvent: {}
+[4.515784] (-) TimerEvent: {}
+[4.616061] (-) TimerEvent: {}
+[4.716359] (-) TimerEvent: {}
+[4.816670] (-) TimerEvent: {}
+[4.917039] (-) TimerEvent: {}
+[5.017309] (-) TimerEvent: {}
+[5.117604] (-) TimerEvent: {}
+[5.217987] (-) TimerEvent: {}
+[5.318256] (-) TimerEvent: {}
+[5.418575] (-) TimerEvent: {}
+[5.518891] (-) TimerEvent: {}
+[5.619187] (-) TimerEvent: {}
+[5.719516] (-) TimerEvent: {}
+[5.819957] (-) TimerEvent: {}
+[5.920230] (-) TimerEvent: {}
+[6.020522] (-) TimerEvent: {}
+[6.120789] (-) TimerEvent: {}
+[6.221155] (-) TimerEvent: {}
+[6.321402] (-) TimerEvent: {}
+[6.421670] (-) TimerEvent: {}
+[6.521937] (-) TimerEvent: {}
+[6.622232] (-) TimerEvent: {}
+[6.722563] (-) TimerEvent: {}
+[6.823262] (-) TimerEvent: {}
+[6.923711] (-) TimerEvent: {}
+[7.023970] (-) TimerEvent: {}
+[7.124231] (-) TimerEvent: {}
+[7.224517] (-) TimerEvent: {}
+[7.324889] (-) TimerEvent: {}
+[7.425169] (-) TimerEvent: {}
+[7.525453] (-) TimerEvent: {}
+[7.534570] (session_09) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[7.625578] (-) TimerEvent: {}
+[7.725942] (-) TimerEvent: {}
+[7.826274] (-) TimerEvent: {}
+[7.926621] (-) TimerEvent: {}
+[7.937998] (session_09) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[7.947917] (session_09) CommandEnded: {'returncode': 0}
+[7.967753] (session_09) JobProgress: {'identifier': 'session_09', 'progress': 'install'}
+[7.975509] (session_09) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09'], 'cwd': '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US'), ('USER', 'rony'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rony'), ('OLDPWD', '/home/rony/Documents/inmind/Session09'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('HOMEBREW_PREFIX', '/home/linuxbrew/.linuxbrew'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('SYSTEMD_EXEC_PID', '2124'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rony/Documents/inmind/Session09/ros2_ws/src/install'), ('INFOPATH', '/home/linuxbrew/.linuxbrew/share/info:'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rony'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rony'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/rony/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rony-IdeaPad-3-15ITL6:@/tmp/.ICE-unix/2101,unix/rony-IdeaPad-3-15ITL6:/tmp/.ICE-unix/2101'), ('HOMEBREW_CELLAR', '/home/linuxbrew/.linuxbrew/Cellar'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('MONETARY', 'en_US-UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/239b6d20_f8de_4de8_9117_7dbcc00410ab'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MWNTR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.425'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HOMEBREW_REPOSITORY', '/home/linuxbrew/.linuxbrew/Homebrew'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('MANPATH', '/home/linuxbrew/.linuxbrew/share/man:'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09:/opt/ros/humble')]), 'shell': False}
+[7.982110] (session_09) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.982339] (session_09) StdoutLine: {'line': b'-- Installing: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/lib/session_09/talker\n'}
+[7.986177] (session_09) StdoutLine: {'line': b'-- Set runtime path of "/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/lib/session_09/talker" to ""\n'}
+[7.986368] (session_09) StdoutLine: {'line': b'-- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/ament_index/resource_index/package_run_dependencies/session_09\n'}
+[7.986529] (session_09) StdoutLine: {'line': b'-- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/ament_index/resource_index/parent_prefix_path/session_09\n'}
+[7.986608] (session_09) StdoutLine: {'line': b'-- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/environment/ament_prefix_path.sh\n'}
+[7.986705] (session_09) StdoutLine: {'line': b'-- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/environment/ament_prefix_path.dsv\n'}
+[7.986820] (session_09) StdoutLine: {'line': b'-- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/environment/path.sh\n'}
+[7.986902] (session_09) StdoutLine: {'line': b'-- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/environment/path.dsv\n'}
+[7.986986] (session_09) StdoutLine: {'line': b'-- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/local_setup.bash\n'}
+[7.987072] (session_09) StdoutLine: {'line': b'-- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/local_setup.sh\n'}
+[7.987164] (session_09) StdoutLine: {'line': b'-- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/local_setup.zsh\n'}
+[7.987253] (session_09) StdoutLine: {'line': b'-- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/local_setup.dsv\n'}
+[7.987335] (session_09) StdoutLine: {'line': b'-- Installing: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/package.dsv\n'}
+[7.987422] (session_09) StdoutLine: {'line': b'-- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/ament_index/resource_index/packages/session_09\n'}
+[7.987507] (session_09) StdoutLine: {'line': b'-- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/cmake/session_09Config.cmake\n'}
+[7.987591] (session_09) StdoutLine: {'line': b'-- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/cmake/session_09Config-version.cmake\n'}
+[7.987685] (session_09) StdoutLine: {'line': b'-- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/package.xml\n'}
+[7.988650] (session_09) CommandEnded: {'returncode': 0}
+[8.023409] (session_09) JobEnded: {'identifier': 'session_09', 'rc': 0}
+[8.024104] (-) EventReactorShutdown: {}
