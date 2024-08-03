@@ -66,6 +66,7 @@ CMAKE_BINARY_DIR = /home/rony/Documents/inmind/Session09/ros2_ws/src/build/sessi
 all: CMakeFiles/driver.dir/all
 all: CMakeFiles/lap_timer_server.dir/all
 all: CMakeFiles/lap_timer_client.dir/all
+all: CMakeFiles/wall_finder_service.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -78,6 +79,7 @@ clean: CMakeFiles/session_09_uninstall.dir/clean
 clean: CMakeFiles/driver.dir/clean
 clean: CMakeFiles/lap_timer_server.dir/clean
 clean: CMakeFiles/lap_timer_client.dir/clean
+clean: CMakeFiles/wall_finder_service.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -209,6 +211,32 @@ lap_timer_client: CMakeFiles/lap_timer_client.dir/rule
 CMakeFiles/lap_timer_client.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lap_timer_client.dir/build.make CMakeFiles/lap_timer_client.dir/clean
 .PHONY : CMakeFiles/lap_timer_client.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/wall_finder_service.dir
+
+# All Build rule for target.
+CMakeFiles/wall_finder_service.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wall_finder_service.dir/build.make CMakeFiles/wall_finder_service.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wall_finder_service.dir/build.make CMakeFiles/wall_finder_service.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09/CMakeFiles --progress-num=7,8 "Built target wall_finder_service"
+.PHONY : CMakeFiles/wall_finder_service.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/wall_finder_service.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/wall_finder_service.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09/CMakeFiles 0
+.PHONY : CMakeFiles/wall_finder_service.dir/rule
+
+# Convenience name for target.
+wall_finder_service: CMakeFiles/wall_finder_service.dir/rule
+.PHONY : wall_finder_service
+
+# clean rule for target.
+CMakeFiles/wall_finder_service.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wall_finder_service.dir/build.make CMakeFiles/wall_finder_service.dir/clean
+.PHONY : CMakeFiles/wall_finder_service.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

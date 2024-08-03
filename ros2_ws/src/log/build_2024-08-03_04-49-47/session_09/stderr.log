@@ -1,0 +1,8 @@
+[01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:[m[K In member function ‘[01m[Kvoid WallFinderService::handle_request(std::shared_ptr<turtle_controller_interfaces::srv::FindClosestWall_Request_<std::allocator<void> > >, std::shared_ptr<turtle_controller_interfaces::srv::FindClosestWall_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:31:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   31 |     [01;35m[Kconst std::shared_ptr<turtle_controller_interfaces::srv::FindClosestWall::Request> request[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:[m[K In member function ‘[01m[Kvoid WallFinderService::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:65:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   65 |     for (int i = 0; [01;35m[Ki < msg->ranges.size()[m[K; ++i) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K

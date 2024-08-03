@@ -1,0 +1,8 @@
+[35m[1mConsolidate compiler generated dependencies of target wall_finder_service[0m
+[35m[1mConsolidate compiler generated dependencies of target driver[0m
+[35m[1mConsolidate compiler generated dependencies of target lap_timer_server[0m
+[35m[1mConsolidate compiler generated dependencies of target lap_timer_client[0m
+[ 25%] Built target driver
+[ 62%] Built target lap_timer_server
+[ 62%] [32mBuilding CXX object CMakeFiles/wall_finder_service.dir/src/wall_finder_service.cpp.o[0m
+[ 87%] Built target lap_timer_client

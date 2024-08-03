@@ -1,0 +1,28 @@
+[0.008s] Invoking command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09': AMENT_PREFIX_PATH=/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09 -- -j8 -l8
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target wall_finder_service[0m
+[0.064s] [ 25%] Built target driver
+[0.064s] [ 50%] Built target lap_timer_server
+[0.067s] [ 75%] Built target lap_timer_client
+[0.075s] [ 87%] [32mBuilding CXX object CMakeFiles/wall_finder_service.dir/src/wall_finder_service.cpp.o[0m
+[2.225s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:[m[K In member function ‘[01m[Kvoid WallFinderService::handle_request(std::shared_ptr<turtle_controller_interfaces::srv::FindClosestWall_Request_<std::allocator<void> > >, std::shared_ptr<turtle_controller_interfaces::srv::FindClosestWall_Response_<std::allocator<void> > >)[m[K’:
+[2.225s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:28:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.225s]    28 | [01;35m[Kr<turtle_controller_interfaces::srv::FindClosestWall::Request> request[m[K,
+[2.225s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[2.225s] 
+[2.227s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:[m[K In member function ‘[01m[Kvoid WallFinderService::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.227s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:57:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.227s]    57 |     for (int i = 0; [01;35m[Ki < msg->ranges.size()[m[K; ++i) {
+[2.227s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[2.228s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:63:10:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kauto msg[m[K’ shadows a parameter
+[2.228s]    63 |     auto [01;31m[Kmsg[m[K = geometry_msgs::msg::Twist();
+[2.228s]       |          [01;31m[K^~~[m[K
+[2.228s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:38:67:[m[K [01;36m[Knote: [m[K‘[01m[Kconst SharedPtr msg[m[K’ previously declared here
+[2.228s]    38 |   void scan_callback([01;36m[Kconst sensor_msgs::msg::LaserScan::SharedPtr msg[m[K)
+[2.228s]       |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.228s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:64:15:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >[m[K’
+[2.228s]    64 |     if(abs(msg[01;31m[K->[m[Kranges[0] - min_distance) >= 0.05)
+[2.228s]       |               [01;31m[K^~[m[K
+[4.560s] gmake[2]: *** [CMakeFiles/wall_finder_service.dir/build.make:76: CMakeFiles/wall_finder_service.dir/src/wall_finder_service.cpp.o] Error 1
+[4.561s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/wall_finder_service.dir/all] Error 2
+[4.561s] gmake: *** [Makefile:146: all] Error 2
+[4.562s] Invoked command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09' returned '2': AMENT_PREFIX_PATH=/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09 -- -j8 -l8

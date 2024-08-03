@@ -242,7 +242,6 @@ turtle_controller_interfaces__srv__FindClosestWall_Response__init(turtle_control
     return false;
   }
   // success
-  // angle
   return true;
 }
 
@@ -253,7 +252,6 @@ turtle_controller_interfaces__srv__FindClosestWall_Response__fini(turtle_control
     return;
   }
   // success
-  // angle
 }
 
 bool
@@ -264,10 +262,6 @@ turtle_controller_interfaces__srv__FindClosestWall_Response__are_equal(const tur
   }
   // success
   if (lhs->success != rhs->success) {
-    return false;
-  }
-  // angle
-  if (lhs->angle != rhs->angle) {
     return false;
   }
   return true;
@@ -283,8 +277,6 @@ turtle_controller_interfaces__srv__FindClosestWall_Response__copy(
   }
   // success
   output->success = input->success;
-  // angle
-  output->angle = input->angle;
   return true;
 }
 

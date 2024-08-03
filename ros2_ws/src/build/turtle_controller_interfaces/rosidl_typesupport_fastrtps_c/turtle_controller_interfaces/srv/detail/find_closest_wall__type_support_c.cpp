@@ -247,11 +247,6 @@ static bool _FindClosestWall_Response__cdr_serialize(
     cdr << (ros_message->success ? true : false);
   }
 
-  // Field name: angle
-  {
-    cdr << ros_message->angle;
-  }
-
   return true;
 }
 
@@ -269,11 +264,6 @@ static bool _FindClosestWall_Response__cdr_deserialize(
     uint8_t tmp;
     cdr >> tmp;
     ros_message->success = tmp ? true : false;
-  }
-
-  // Field name: angle
-  {
-    cdr >> ros_message->angle;
   }
 
   return true;
@@ -296,12 +286,6 @@ size_t get_serialized_size_turtle_controller_interfaces__srv__FindClosestWall_Re
   // field.name success
   {
     size_t item_size = sizeof(ros_message->success);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name angle
-  {
-    size_t item_size = sizeof(ros_message->angle);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -341,14 +325,6 @@ size_t max_serialized_size_turtle_controller_interfaces__srv__FindClosestWall_Re
     last_member_size = array_size * sizeof(uint8_t);
     current_alignment += array_size * sizeof(uint8_t);
   }
-  // member: angle
-  {
-    size_t array_size = 1;
-
-    last_member_size = array_size * sizeof(uint32_t);
-    current_alignment += array_size * sizeof(uint32_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
-  }
 
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
@@ -358,7 +334,7 @@ size_t max_serialized_size_turtle_controller_interfaces__srv__FindClosestWall_Re
     using DataType = turtle_controller_interfaces__srv__FindClosestWall_Response;
     is_plain =
       (
-      offsetof(DataType, angle) +
+      offsetof(DataType, success) +
       last_member_size
       ) == ret_val;
   }

@@ -236,6 +236,19 @@ lap_timer_client/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lap_timer_client.dir/build.make CMakeFiles/lap_timer_client.dir/build
 .PHONY : lap_timer_client/fast
 
+#=============================================================================
+# Target rules for targets named wall_finder_service
+
+# Build rule for target.
+wall_finder_service: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wall_finder_service
+.PHONY : wall_finder_service
+
+# fast build rule for target.
+wall_finder_service/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wall_finder_service.dir/build.make CMakeFiles/wall_finder_service.dir/build
+.PHONY : wall_finder_service/fast
+
 src/driver_node.o: src/driver_node.cpp.o
 .PHONY : src/driver_node.o
 
@@ -308,6 +321,30 @@ src/lap_time_action_srv.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lap_timer_server.dir/build.make CMakeFiles/lap_timer_server.dir/src/lap_time_action_srv.cpp.s
 .PHONY : src/lap_time_action_srv.cpp.s
 
+src/wall_finder_service.o: src/wall_finder_service.cpp.o
+.PHONY : src/wall_finder_service.o
+
+# target to build an object file
+src/wall_finder_service.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wall_finder_service.dir/build.make CMakeFiles/wall_finder_service.dir/src/wall_finder_service.cpp.o
+.PHONY : src/wall_finder_service.cpp.o
+
+src/wall_finder_service.i: src/wall_finder_service.cpp.i
+.PHONY : src/wall_finder_service.i
+
+# target to preprocess a source file
+src/wall_finder_service.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wall_finder_service.dir/build.make CMakeFiles/wall_finder_service.dir/src/wall_finder_service.cpp.i
+.PHONY : src/wall_finder_service.cpp.i
+
+src/wall_finder_service.s: src/wall_finder_service.cpp.s
+.PHONY : src/wall_finder_service.s
+
+# target to generate assembly for a file
+src/wall_finder_service.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wall_finder_service.dir/build.make CMakeFiles/wall_finder_service.dir/src/wall_finder_service.cpp.s
+.PHONY : src/wall_finder_service.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -326,6 +363,7 @@ help:
 	@echo "... driver"
 	@echo "... lap_timer_client"
 	@echo "... lap_timer_server"
+	@echo "... wall_finder_service"
 	@echo "... src/driver_node.o"
 	@echo "... src/driver_node.i"
 	@echo "... src/driver_node.s"
@@ -335,6 +373,9 @@ help:
 	@echo "... src/lap_time_action_srv.o"
 	@echo "... src/lap_time_action_srv.i"
 	@echo "... src/lap_time_action_srv.s"
+	@echo "... src/wall_finder_service.o"
+	@echo "... src/wall_finder_service.i"
+	@echo "... src/wall_finder_service.s"
 .PHONY : help
 
 

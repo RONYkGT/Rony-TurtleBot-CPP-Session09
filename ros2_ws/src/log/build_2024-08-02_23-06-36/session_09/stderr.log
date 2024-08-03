@@ -1,0 +1,8 @@
+[01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_srv.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse LapTimeActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const turtle_controller_interfaces::action::MeasureLapTime_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_srv.cpp:50:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   50 |     [01;35m[Kstd::shared_ptr<const MeasureLapTime::Goal> goal[m[K)
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:[m[K In member function ‘[01m[Kvoid WallFinderService::handle_request(std::shared_ptr<turtle_controller_interfaces::srv::FindClosestWall_Request_<std::allocator<void> > >, std::shared_ptr<turtle_controller_interfaces::srv::FindClosestWall_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:27:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 |     [01;35m[Kconst std::shared_ptr<turtle_controller_interfaces::srv::FindClosestWall::Request> request[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K

@@ -146,7 +146,6 @@ struct FindClosestWall_Response_
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
       this->success = false;
-      this->angle = 0l;
     }
   }
 
@@ -157,7 +156,6 @@ struct FindClosestWall_Response_
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
       this->success = false;
-      this->angle = 0l;
     }
   }
 
@@ -165,21 +163,12 @@ struct FindClosestWall_Response_
   using _success_type =
     bool;
   _success_type success;
-  using _angle_type =
-    int32_t;
-  _angle_type angle;
 
   // setters for named parameter idiom
   Type & set__success(
     const bool & _arg)
   {
     this->success = _arg;
-    return *this;
-  }
-  Type & set__angle(
-    const int32_t & _arg)
-  {
-    this->angle = _arg;
     return *this;
   }
 
@@ -226,9 +215,6 @@ struct FindClosestWall_Response_
   bool operator==(const FindClosestWall_Response_ & other) const
   {
     if (this->success != other.success) {
-      return false;
-    }
-    if (this->angle != other.angle) {
       return false;
     }
     return true;

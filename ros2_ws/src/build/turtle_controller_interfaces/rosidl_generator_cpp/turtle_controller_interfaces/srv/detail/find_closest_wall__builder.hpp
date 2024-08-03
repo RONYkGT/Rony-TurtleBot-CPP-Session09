@@ -43,32 +43,16 @@ namespace srv
 namespace builder
 {
 
-class Init_FindClosestWall_Response_angle
-{
-public:
-  explicit Init_FindClosestWall_Response_angle(::turtle_controller_interfaces::srv::FindClosestWall_Response & msg)
-  : msg_(msg)
-  {}
-  ::turtle_controller_interfaces::srv::FindClosestWall_Response angle(::turtle_controller_interfaces::srv::FindClosestWall_Response::_angle_type arg)
-  {
-    msg_.angle = std::move(arg);
-    return std::move(msg_);
-  }
-
-private:
-  ::turtle_controller_interfaces::srv::FindClosestWall_Response msg_;
-};
-
 class Init_FindClosestWall_Response_success
 {
 public:
   Init_FindClosestWall_Response_success()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  Init_FindClosestWall_Response_angle success(::turtle_controller_interfaces::srv::FindClosestWall_Response::_success_type arg)
+  ::turtle_controller_interfaces::srv::FindClosestWall_Response success(::turtle_controller_interfaces::srv::FindClosestWall_Response::_success_type arg)
   {
     msg_.success = std::move(arg);
-    return Init_FindClosestWall_Response_angle(msg_);
+    return std::move(msg_);
   }
 
 private:

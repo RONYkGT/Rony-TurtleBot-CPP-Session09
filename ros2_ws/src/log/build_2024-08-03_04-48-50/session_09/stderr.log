@@ -1,0 +1,26 @@
+[01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:[m[K In member function ‘[01m[Kvoid WallFinderService::handle_request(std::shared_ptr<turtle_controller_interfaces::srv::FindClosestWall_Request_<std::allocator<void> > >, std::shared_ptr<turtle_controller_interfaces::srv::FindClosestWall_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:36:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   36 |     [01;31m[Ktimer_[m[K = this->create_wall_timer(
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Ktimer_t[m[K
+[01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:[m[K In lambda function:
+[01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:41:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ is not captured
+   41 |           [01;31m[Ktimer_[m[K->cancel();
+      |           [01;31m[K^~~~~~[m[K
+[01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:37:29:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   37 |       100ms, [this, response[01;36m[K][m[K() {
+      |                             [01;36m[K^[m[K
+[01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:36:5:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>timer_[m[K’ declared here
+   36 |     [01;36m[Ktimer_[m[K = this->create_wall_timer(
+      |     [01;36m[K^~~~~~[m[K
+[01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:[m[K In member function ‘[01m[Kvoid WallFinderService::handle_request(std::shared_ptr<turtle_controller_interfaces::srv::FindClosestWall_Request_<std::allocator<void> > >, std::shared_ptr<turtle_controller_interfaces::srv::FindClosestWall_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:31:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   31 |     [01;35m[Kconst std::shared_ptr<turtle_controller_interfaces::srv::FindClosestWall::Request> request[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:[m[K In member function ‘[01m[Kvoid WallFinderService::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:65:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   65 |     for (int i = 0; [01;35m[Ki < msg->ranges.size()[m[K; ++i) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/wall_finder_service.dir/build.make:76: CMakeFiles/wall_finder_service.dir/src/wall_finder_service.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/wall_finder_service.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

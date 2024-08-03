@@ -1,0 +1,26 @@
+[0.009s] Invoking command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09': CMAKE_PREFIX_PATH=/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces:/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09:/opt/ros/humble /usr/bin/cmake --build /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09 -- -j8 -l8
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target wall_finder_service[0m
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target driver[0m
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target lap_timer_server[0m
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target lap_timer_client[0m
+[0.068s] [ 25%] Built target driver
+[0.069s] [ 62%] Built target lap_timer_server
+[0.069s] [ 62%] [32mBuilding CXX object CMakeFiles/wall_finder_service.dir/src/wall_finder_service.cpp.o[0m
+[0.077s] [ 87%] Built target lap_timer_client
+[2.157s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:[m[K In member function ‘[01m[Kvoid WallFinderService::handle_request(std::shared_ptr<turtle_controller_interfaces::srv::FindClosestWall_Request_<std::allocator<void> > >, std::shared_ptr<turtle_controller_interfaces::srv::FindClosestWall_Response_<std::allocator<void> > >)[m[K’:
+[2.157s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:27:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.157s]    27 |     [01;35m[Kconst std::shared_ptr<turtle_controller_interfaces::srv::FindClosestWall::Request> request[m[K,
+[2.157s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[2.163s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:[m[K In member function ‘[01m[Kvoid WallFinderService::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.164s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:39:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kreceived_request[m[K’ was not declared in this scope; did you mean ‘[01m[Kreceived_request_[m[K’?
+[2.164s]    39 |     if (![01;31m[Kreceived_request[m[K) return;
+[2.164s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.164s]       |          [32m[Kreceived_request_[m[K
+[2.169s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:61:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kreceived_request[m[K’ was not declared in this scope; did you mean ‘[01m[Kreceived_request_[m[K’?
+[2.169s]    61 |         [01;31m[Kreceived_request[m[K = false;
+[2.169s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.169s]       |         [32m[Kreceived_request_[m[K
+[4.516s] gmake[2]: *** [CMakeFiles/wall_finder_service.dir/build.make:76: CMakeFiles/wall_finder_service.dir/src/wall_finder_service.cpp.o] Error 1
+[4.516s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/wall_finder_service.dir/all] Error 2
+[4.516s] gmake: *** [Makefile:146: all] Error 2
+[4.518s] Invoked command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09' returned '2': CMAKE_PREFIX_PATH=/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces:/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09:/opt/ros/humble /usr/bin/cmake --build /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09 -- -j8 -l8

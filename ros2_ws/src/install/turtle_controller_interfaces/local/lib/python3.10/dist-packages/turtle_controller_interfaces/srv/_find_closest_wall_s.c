@@ -135,15 +135,6 @@ bool turtle_controller_interfaces__srv__find_closest_wall__response__convert_fro
     ros_message->success = (Py_True == field);
     Py_DECREF(field);
   }
-  {  // angle
-    PyObject * field = PyObject_GetAttrString(_pymsg, "angle");
-    if (!field) {
-      return false;
-    }
-    assert(PyLong_Check(field));
-    ros_message->angle = (int32_t)PyLong_AsLong(field);
-    Py_DECREF(field);
-  }
 
   return true;
 }
@@ -171,17 +162,6 @@ PyObject * turtle_controller_interfaces__srv__find_closest_wall__response__conve
     field = PyBool_FromLong(ros_message->success ? 1 : 0);
     {
       int rc = PyObject_SetAttrString(_pymessage, "success", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // angle
-    PyObject * field = NULL;
-    field = PyLong_FromLong(ros_message->angle);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "angle", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

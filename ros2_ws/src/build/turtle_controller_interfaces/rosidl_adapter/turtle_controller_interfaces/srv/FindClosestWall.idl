@@ -10,8 +10,6 @@ module turtle_controller_interfaces {
     };
     struct FindClosestWall_Response {
       boolean success;
-
-      int32 angle;
     };
   };
 };

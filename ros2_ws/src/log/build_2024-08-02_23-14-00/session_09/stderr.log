@@ -1,0 +1,16 @@
+[01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:[m[K In member function ‘[01m[Kvoid WallFinderService::handle_request(std::shared_ptr<turtle_controller_interfaces::srv::FindClosestWall_Request_<std::allocator<void> > >, std::shared_ptr<turtle_controller_interfaces::srv::FindClosestWall_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:27:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 |     [01;35m[Kconst std::shared_ptr<turtle_controller_interfaces::srv::FindClosestWall::Request> request[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:[m[K In member function ‘[01m[Kvoid WallFinderService::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:39:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kreceived_request[m[K’ was not declared in this scope; did you mean ‘[01m[Kreceived_request_[m[K’?
+   39 |     if (![01;31m[Kreceived_request[m[K) return;
+      |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |          [32m[Kreceived_request_[m[K
+[01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:61:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kreceived_request[m[K’ was not declared in this scope; did you mean ‘[01m[Kreceived_request_[m[K’?
+   61 |         [01;31m[Kreceived_request[m[K = false;
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kreceived_request_[m[K
+gmake[2]: *** [CMakeFiles/wall_finder_service.dir/build.make:76: CMakeFiles/wall_finder_service.dir/src/wall_finder_service.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/wall_finder_service.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

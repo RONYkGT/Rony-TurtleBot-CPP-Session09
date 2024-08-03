@@ -156,7 +156,7 @@ void FindClosestWall_Response_fini_function(void * message_memory)
   typed_message->~FindClosestWall_Response();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember FindClosestWall_Response_message_member_array[2] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember FindClosestWall_Response_message_member_array[1] = {
   {
     "success",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_BOOLEAN,  // type
@@ -173,30 +173,13 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember FindClosestWa
     nullptr,  // fetch(index, &value) function pointer
     nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
-  },
-  {
-    "angle",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT32,  // type
-    0,  // upper bound of string
-    nullptr,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(turtle_controller_interfaces::srv::FindClosestWall_Response, angle),  // bytes offset in struct
-    nullptr,  // default value
-    nullptr,  // size() function pointer
-    nullptr,  // get_const(index) function pointer
-    nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
-    nullptr  // resize(index) function pointer
   }
 };
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers FindClosestWall_Response_message_members = {
   "turtle_controller_interfaces::srv",  // message namespace
   "FindClosestWall_Response",  // message name
-  2,  // number of fields
+  1,  // number of fields
   sizeof(turtle_controller_interfaces::srv::FindClosestWall_Response),
   FindClosestWall_Response_message_member_array,  // message members
   FindClosestWall_Response_init_function,  // function to initialize message memory (memory has to be allocated)

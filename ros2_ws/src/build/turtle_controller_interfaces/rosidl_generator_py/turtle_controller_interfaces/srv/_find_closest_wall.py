@@ -157,17 +157,14 @@ class FindClosestWall_Response(metaclass=Metaclass_FindClosestWall_Response):
 
     __slots__ = [
         '_success',
-        '_angle',
     ]
 
     _fields_and_field_types = {
         'success': 'boolean',
-        'angle': 'int32',
     }
 
     SLOT_TYPES = (
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
-        rosidl_parser.definition.BasicType('int32'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -175,7 +172,6 @@ class FindClosestWall_Response(metaclass=Metaclass_FindClosestWall_Response):
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         self.success = kwargs.get('success', bool())
-        self.angle = kwargs.get('angle', int())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -208,8 +204,6 @@ class FindClosestWall_Response(metaclass=Metaclass_FindClosestWall_Response):
             return False
         if self.success != other.success:
             return False
-        if self.angle != other.angle:
-            return False
         return True
 
     @classmethod
@@ -229,21 +223,6 @@ class FindClosestWall_Response(metaclass=Metaclass_FindClosestWall_Response):
                 isinstance(value, bool), \
                 "The 'success' field must be of type 'bool'"
         self._success = value
-
-    @builtins.property
-    def angle(self):
-        """Message field 'angle'."""
-        return self._angle
-
-    @angle.setter
-    def angle(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, int), \
-                "The 'angle' field must be of type 'int'"
-            assert value >= -2147483648 and value < 2147483648, \
-                "The 'angle' field must be an integer in [-2147483648, 2147483647]"
-        self._angle = value
 
 
 class Metaclass_FindClosestWall(type):
