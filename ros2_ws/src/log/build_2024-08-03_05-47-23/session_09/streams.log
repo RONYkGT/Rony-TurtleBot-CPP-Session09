@@ -1,0 +1,16 @@
+[0.014s] Invoking command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09': CMAKE_PREFIX_PATH=/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces:/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09:/opt/ros/humble /usr/bin/cmake --build /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09 -- -j8 -l8
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target lap_timer_client[0m
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target wall_finder_service[0m
+[0.080s] [ 12%] [32mBuilding CXX object CMakeFiles/lap_timer_server.dir/src/lap_time_action_srv.cpp.o[0m
+[0.085s] [ 37%] Built target driver
+[0.091s] [ 62%] Built target lap_timer_client
+[0.092s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_srv.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Klap_time_action_srv.hpp: No such file or directory
+[0.092s]     1 | #include [01;31m[K"lap_time_action_srv.hpp"[m[K
+[0.093s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.093s] compilation terminated.
+[0.093s] gmake[2]: *** [CMakeFiles/lap_timer_server.dir/build.make:76: CMakeFiles/lap_timer_server.dir/src/lap_time_action_srv.cpp.o] Error 1
+[0.093s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/lap_timer_server.dir/all] Error 2
+[0.094s] gmake[1]: *** Waiting for unfinished jobs....
+[0.095s] [ 87%] Built target wall_finder_service
+[0.096s] gmake: *** [Makefile:146: all] Error 2
+[0.098s] Invoked command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09' returned '2': CMAKE_PREFIX_PATH=/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces:/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09:/opt/ros/humble /usr/bin/cmake --build /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09 -- -j8 -l8

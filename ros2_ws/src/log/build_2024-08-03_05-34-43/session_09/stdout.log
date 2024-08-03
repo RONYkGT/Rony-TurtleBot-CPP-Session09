@@ -1,0 +1,4 @@
+[ 50%] Built target lap_timer_server
+[ 50%] Built target lap_timer_client
+[ 87%] Built target wall_finder_service
+[ 87%] [32mBuilding CXX object CMakeFiles/driver.dir/src/driver_node.cpp.o[0m

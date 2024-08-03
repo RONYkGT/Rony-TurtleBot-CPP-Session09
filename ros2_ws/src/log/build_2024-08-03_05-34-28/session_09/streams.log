@@ -1,0 +1,14 @@
+[0.011s] Invoking command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09': CMAKE_PREFIX_PATH=/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces:/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09:/opt/ros/humble /usr/bin/cmake --build /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09 -- -j8 -l8
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target driver[0m
+[0.069s] [ 37%] Built target lap_timer_server
+[0.069s] [ 50%] Built target lap_timer_client
+[0.071s] [ 75%] Built target wall_finder_service
+[0.073s] [ 87%] [32mBuilding CXX object CMakeFiles/driver.dir/src/driver_node.cpp.o[0m
+[0.081s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/driver_node.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krobot_driver.hpp: No such file or directory
+[0.081s]     1 | #include [01;31m[K"robot_driver.hpp"[m[K
+[0.081s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.081s] compilation terminated.
+[0.083s] gmake[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/driver_node.cpp.o] Error 1
+[0.083s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/driver.dir/all] Error 2
+[0.083s] gmake: *** [Makefile:146: all] Error 2
+[0.086s] Invoked command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09' returned '2': CMAKE_PREFIX_PATH=/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces:/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09:/opt/ros/humble /usr/bin/cmake --build /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09 -- -j8 -l8

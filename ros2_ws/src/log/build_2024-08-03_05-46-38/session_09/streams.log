@@ -1,0 +1,27 @@
+[0.009s] Invoking command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09': CMAKE_PREFIX_PATH=/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces:/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09:/opt/ros/humble /usr/bin/cmake --build /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09 -- -j8 -l8
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target driver[0m
+[0.059s] [ 37%] [32mBuilding CXX object CMakeFiles/lap_timer_client.dir/src/lap_time_action_cli.cpp.o[0m
+[0.059s] [ 37%] [32mBuilding CXX object CMakeFiles/lap_timer_server.dir/src/lap_time_action_srv.cpp.o[0m
+[0.059s] [ 37%] [32mBuilding CXX object CMakeFiles/wall_finder_service.dir/src/wall_finder_service.cpp.o[0m
+[0.066s] [ 62%] Built target driver
+[0.076s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_srv.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Klap_time_action_server.hpp: No such file or directory
+[0.076s]     1 | #include [01;31m[K"lap_time_action_server.hpp"[m[K
+[0.076s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.076s] compilation terminated.
+[0.076s] gmake[2]: *** [CMakeFiles/lap_timer_server.dir/build.make:76: CMakeFiles/lap_timer_server.dir/src/lap_time_action_srv.cpp.o] Error 1
+[0.077s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/lap_timer_server.dir/all] Error 2
+[0.077s] gmake[1]: *** Waiting for unfinished jobs....
+[2.476s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:[m[K In member function ‘[01m[Kvoid WallFinderService::handle_request(std::shared_ptr<turtle_controller_interfaces::srv::FindClosestWall_Request_<std::allocator<void> > >, std::shared_ptr<turtle_controller_interfaces::srv::FindClosestWall_Response_<std::allocator<void> > >)[m[K’:
+[2.476s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:16:86:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.476s]    16 |   [01;35m[Kconst std::shared_ptr<turtle_controller_interfaces::srv::FindClosestWall::Request> request[m[K,
+[2.476s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[2.479s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:[m[K In member function ‘[01m[Kvoid WallFinderService::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.479s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/wall_finder_service.cpp:44:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.479s]    44 |   for (int i = 0; [01;35m[Ki < msg->ranges.size()[m[K; ++i) {
+[2.479s]       |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[3.887s] [ 75%] [32m[1mLinking CXX executable lap_timer_client[0m
+[4.060s] [ 75%] Built target lap_timer_client
+[8.014s] [ 87%] [32m[1mLinking CXX executable wall_finder_service[0m
+[8.450s] [ 87%] Built target wall_finder_service
+[8.450s] gmake: *** [Makefile:146: all] Error 2
+[8.452s] Invoked command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09' returned '2': CMAKE_PREFIX_PATH=/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces:/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09:/opt/ros/humble /usr/bin/cmake --build /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09 -- -j8 -l8

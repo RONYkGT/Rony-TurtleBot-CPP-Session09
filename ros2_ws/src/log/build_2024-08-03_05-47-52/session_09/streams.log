@@ -1,0 +1,37 @@
+[0.010s] Invoking command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09': CMAKE_PREFIX_PATH=/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces:/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09:/opt/ros/humble /usr/bin/cmake --build /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09 -- -j8 -l8
+[0.071s] [ 25%] Built target wall_finder_service
+[0.071s] [ 37%] [32mBuilding CXX object CMakeFiles/lap_timer_server.dir/src/lap_time_action_srv.cpp.o[0m
+[0.071s] [ 62%] Built target lap_timer_client
+[0.071s] [ 87%] Built target driver
+[2.230s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_srv.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse LapTimeActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const turtle_controller_interfaces::action::MeasureLapTime_Goal_<std::allocator<void> > >)[m[K’:
+[2.230s] [01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_srv.cpp:27:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.230s]    27 |   [01;35m[Kstd::shared_ptr<const MeasureLapTime::Goal> goal[m[K)
+[2.230s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[7.592s] [100%] [32m[1mLinking CXX executable lap_timer_server[0m
+[8.008s] [100%] Built target lap_timer_server
+[8.017s] Invoked command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09' returned '0': CMAKE_PREFIX_PATH=/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces:/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09:/opt/ros/humble /usr/bin/cmake --build /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09 -- -j8 -l8
+[8.043s] Invoking command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09': CMAKE_PREFIX_PATH=/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces:/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09:/opt/ros/humble /usr/bin/cmake --install /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09
+[8.049s] -- Install configuration: ""
+[8.049s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/lib/session_09/driver
+[8.050s] -- Installing: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/lib/session_09/lap_timer_server
+[8.054s] -- Set runtime path of "/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/lib/session_09/lap_timer_server" to ""
+[8.055s] -- Installing: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/lib/session_09/lap_timer_client
+[8.056s] -- Set runtime path of "/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/lib/session_09/lap_timer_client" to ""
+[8.056s] -- Installing: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/lib/session_09/wall_finder_service
+[8.060s] -- Set runtime path of "/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/lib/session_09/wall_finder_service" to ""
+[8.060s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/ament_index/resource_index/package_run_dependencies/session_09
+[8.060s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/ament_index/resource_index/parent_prefix_path/session_09
+[8.060s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/environment/ament_prefix_path.sh
+[8.060s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/environment/ament_prefix_path.dsv
+[8.061s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/environment/path.sh
+[8.061s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/environment/path.dsv
+[8.061s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/local_setup.bash
+[8.061s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/local_setup.sh
+[8.061s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/local_setup.zsh
+[8.061s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/local_setup.dsv
+[8.061s] -- Installing: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/package.dsv
+[8.061s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/ament_index/resource_index/packages/session_09
+[8.061s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/cmake/session_09Config.cmake
+[8.061s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/cmake/session_09Config-version.cmake
+[8.061s] -- Up-to-date: /home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/package.xml
+[8.063s] Invoked command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09' returned '0': CMAKE_PREFIX_PATH=/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces:/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09:/opt/ros/humble /usr/bin/cmake --install /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09

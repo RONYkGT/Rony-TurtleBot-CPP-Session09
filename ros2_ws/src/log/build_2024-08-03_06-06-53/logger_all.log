@@ -1,0 +1,199 @@
+[0.081s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.081s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x757ffe334220>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x757ffe4ffbe0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x757ffe4ffbe0>>)
+[0.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.109s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.109s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rony/Documents/inmind/Session09/ros2_ws/src'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(session_09) by extensions ['ignore', 'ignore_ament_install']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(session_09) by extension 'ignore'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(session_09) by extension 'ignore_ament_install'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(session_09) by extensions ['colcon_pkg']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(session_09) by extension 'colcon_pkg'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(session_09) by extensions ['colcon_meta']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(session_09) by extension 'colcon_meta'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(session_09) by extensions ['ros']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(session_09) by extension 'ros'
+[0.125s] DEBUG:colcon.colcon_core.package_identification:Package 'session_09' with type 'ros.ament_cmake' and name 'session_09'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_controller_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_controller_interfaces) by extension 'ignore'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_controller_interfaces) by extension 'ignore_ament_install'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_controller_interfaces) by extensions ['colcon_pkg']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_controller_interfaces) by extension 'colcon_pkg'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_controller_interfaces) by extensions ['colcon_meta']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_controller_interfaces) by extension 'colcon_meta'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_controller_interfaces) by extensions ['ros']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_controller_interfaces) by extension 'ros'
+[0.126s] DEBUG:colcon.colcon_core.package_identification:Package 'turtle_controller_interfaces' with type 'ros.ament_cmake' and name 'turtle_controller_interfaces'
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.143s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/rony/Documents/inmind/Session09/ros2_ws/src/install
+[0.144s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 278 installed packages in /opt/ros/humble
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'turtle_controller_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.172s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_controller_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/turtle_controller_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces', 'merge_install': False, 'path': '/home/rony/Documents/inmind/Session09/ros2_ws/src/turtle_controller_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'session_09' build argument 'cmake_args' from command line to 'None'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'session_09' build argument 'cmake_target' from command line to 'None'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'session_09' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'session_09' build argument 'cmake_clean_cache' from command line to 'False'
+[0.172s] Level 5:colcon.colcon_core.verb:set package 'session_09' build argument 'cmake_clean_first' from command line to 'False'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'session_09' build argument 'cmake_force_configure' from command line to 'False'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'session_09' build argument 'ament_cmake_args' from command line to 'None'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'session_09' build argument 'catkin_cmake_args' from command line to 'None'
+[0.173s] Level 5:colcon.colcon_core.verb:set package 'session_09' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.173s] DEBUG:colcon.colcon_core.verb:Building package 'session_09' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09', 'merge_install': False, 'path': '/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09', 'symlink_install': False, 'test_result_base': None}
+[0.173s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.174s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.174s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rony/Documents/inmind/Session09/ros2_ws/src/turtle_controller_interfaces' with build type 'ament_cmake'
+[0.174s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rony/Documents/inmind/Session09/ros2_ws/src/turtle_controller_interfaces'
+[0.175s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.176s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.176s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.183s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/turtle_controller_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rony/Documents/inmind/Session09/ros2_ws/src/build/turtle_controller_interfaces -- -j8 -l8
+[0.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/turtle_controller_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rony/Documents/inmind/Session09/ros2_ws/src/build/turtle_controller_interfaces -- -j8 -l8
+[0.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/turtle_controller_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rony/Documents/inmind/Session09/ros2_ws/src/build/turtle_controller_interfaces
+[0.577s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_controller_interfaces)
+[0.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/turtle_controller_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rony/Documents/inmind/Session09/ros2_ws/src/build/turtle_controller_interfaces
+[0.579s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces' for CMake module files
+[0.580s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces' for CMake config files
+[0.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_controller_interfaces', 'cmake_prefix_path')
+[0.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/share/turtle_controller_interfaces/hook/cmake_prefix_path.ps1'
+[0.581s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/share/turtle_controller_interfaces/hook/cmake_prefix_path.dsv'
+[0.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/share/turtle_controller_interfaces/hook/cmake_prefix_path.sh'
+[0.582s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/lib'
+[0.582s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_controller_interfaces', 'ld_library_path_lib')
+[0.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/share/turtle_controller_interfaces/hook/ld_library_path_lib.ps1'
+[0.582s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/share/turtle_controller_interfaces/hook/ld_library_path_lib.dsv'
+[0.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/share/turtle_controller_interfaces/hook/ld_library_path_lib.sh'
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/bin'
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/lib/pkgconfig/turtle_controller_interfaces.pc'
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/lib/python3.10/site-packages'
+[0.584s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/bin'
+[0.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/share/turtle_controller_interfaces/package.ps1'
+[0.585s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/share/turtle_controller_interfaces/package.dsv'
+[0.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/share/turtle_controller_interfaces/package.sh'
+[0.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/share/turtle_controller_interfaces/package.bash'
+[0.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/share/turtle_controller_interfaces/package.zsh'
+[0.586s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/share/colcon-core/packages/turtle_controller_interfaces)
+[0.647s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_controller_interfaces)
+[0.647s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces' for CMake module files
+[0.647s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces' for CMake config files
+[0.648s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_controller_interfaces', 'cmake_prefix_path')
+[0.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/share/turtle_controller_interfaces/hook/cmake_prefix_path.ps1'
+[0.648s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/share/turtle_controller_interfaces/hook/cmake_prefix_path.dsv'
+[0.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/share/turtle_controller_interfaces/hook/cmake_prefix_path.sh'
+[0.649s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/lib'
+[0.649s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_controller_interfaces', 'ld_library_path_lib')
+[0.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/share/turtle_controller_interfaces/hook/ld_library_path_lib.ps1'
+[0.650s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/share/turtle_controller_interfaces/hook/ld_library_path_lib.dsv'
+[0.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/share/turtle_controller_interfaces/hook/ld_library_path_lib.sh'
+[0.650s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/bin'
+[0.650s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/lib/pkgconfig/turtle_controller_interfaces.pc'
+[0.651s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/lib/python3.10/site-packages'
+[0.651s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/bin'
+[0.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/share/turtle_controller_interfaces/package.ps1'
+[0.651s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/share/turtle_controller_interfaces/package.dsv'
+[0.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/share/turtle_controller_interfaces/package.sh'
+[0.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/share/turtle_controller_interfaces/package.bash'
+[0.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/share/turtle_controller_interfaces/package.zsh'
+[0.653s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces/share/colcon-core/packages/turtle_controller_interfaces)
+[0.653s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09' with build type 'ament_cmake'
+[0.653s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09'
+[0.653s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.654s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.663s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09': CMAKE_PREFIX_PATH=/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces:/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09:/opt/ros/humble /usr/bin/cmake --build /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09 -- -j8 -l8
+[4.281s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09' returned '0': CMAKE_PREFIX_PATH=/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces:/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09:/opt/ros/humble /usr/bin/cmake --build /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09 -- -j8 -l8
+[4.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09': CMAKE_PREFIX_PATH=/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces:/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09:/opt/ros/humble /usr/bin/cmake --install /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09
+[4.318s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(session_09)
+[4.319s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09' for CMake module files
+[4.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09' returned '0': CMAKE_PREFIX_PATH=/home/rony/Documents/inmind/Session09/ros2_ws/src/install/turtle_controller_interfaces:/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09:/opt/ros/humble /usr/bin/cmake --install /home/rony/Documents/inmind/Session09/ros2_ws/src/build/session_09
+[4.319s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09' for CMake config files
+[4.319s] Level 1:colcon.colcon_core.shell:create_environment_hook('session_09', 'cmake_prefix_path')
+[4.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/hook/cmake_prefix_path.ps1'
+[4.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/hook/cmake_prefix_path.dsv'
+[4.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/hook/cmake_prefix_path.sh'
+[4.321s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/lib'
+[4.322s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/bin'
+[4.322s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/lib/pkgconfig/session_09.pc'
+[4.322s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/lib/python3.10/site-packages'
+[4.322s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/bin'
+[4.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/package.ps1'
+[4.322s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/package.dsv'
+[4.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/package.sh'
+[4.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/package.bash'
+[4.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/package.zsh'
+[4.324s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/colcon-core/packages/session_09)
+[4.349s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(session_09)
+[4.349s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09' for CMake module files
+[4.350s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09' for CMake config files
+[4.350s] Level 1:colcon.colcon_core.shell:create_environment_hook('session_09', 'cmake_prefix_path')
+[4.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/hook/cmake_prefix_path.ps1'
+[4.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/hook/cmake_prefix_path.dsv'
+[4.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/hook/cmake_prefix_path.sh'
+[4.351s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/lib'
+[4.351s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/bin'
+[4.352s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/lib/pkgconfig/session_09.pc'
+[4.352s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/lib/python3.10/site-packages'
+[4.352s] Level 1:colcon.colcon_core.environment:checking '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/bin'
+[4.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/package.ps1'
+[4.352s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/package.dsv'
+[4.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/package.sh'
+[4.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/package.bash'
+[4.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/session_09/package.zsh'
+[4.354s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rony/Documents/inmind/Session09/ros2_ws/src/install/session_09/share/colcon-core/packages/session_09)
+[4.354s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.354s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.354s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.354s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.358s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.358s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.359s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.369s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.369s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/local_setup.ps1'
+[4.370s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/_local_setup_util_ps1.py'
+[4.371s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/setup.ps1'
+[4.372s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/local_setup.sh'
+[4.373s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/_local_setup_util_sh.py'
+[4.373s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/setup.sh'
+[4.374s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/local_setup.bash'
+[4.374s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/setup.bash'
+[4.375s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/local_setup.zsh'
+[4.375s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rony/Documents/inmind/Session09/ros2_ws/src/install/setup.zsh'

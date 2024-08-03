@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target lap_timer_client[0m
+[ 25%] Built target driver
+[ 50%] Built target lap_timer_server
+[ 75%] Built target wall_finder_service
+[ 87%] [32mBuilding CXX object CMakeFiles/lap_timer_client.dir/src/lap_time_action_cli.cpp.o[0m
+[01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_cli.cpp:[m[K In constructor ‘[01m[KLapTimeActionClient::LapTimeActionClient()[m[K’:
+[01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_cli.cpp:6:3:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KLapTimeActionClient[m[K’ does not have any field named ‘[01m[Klap_counter_[m[K’
+    6 |   [01;31m[Klap_counter_[m[K(1)
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_cli.cpp:13:3:[m[K [01;31m[Kerror: [m[K‘[01m[Klog_file_[m[K’ was not declared in this scope
+   13 |   [01;31m[Klog_file_[m[K.open("lap_results.txt", std::ios::out | std::ios::app);
+      |   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_cli.cpp:[m[K At global scope:
+[01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_cli.cpp:24:43:[m[K [01;31m[Kerror: [m[Kdefinition of implicitly-declared ‘[01m[Kvirtual LapTimeActionClient::~LapTimeActionClient()[m[K’
+   24 | LapTimeActionClient::~LapTimeActionClient([01;31m[K)[m[K
+      |                                           [01;31m[K^[m[K
+[01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_cli.cpp:[m[K In member function ‘[01m[Kvoid LapTimeActionClient::result_callback(const rclcpp_action::ClientGoalHandle<turtle_controller_interfaces::action::MeasureLapTime>::WrappedResult&)[m[K’:
+[01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_cli.cpp:80:11:[m[K [01;31m[Kerror: [m[K‘[01m[Klog_file_[m[K’ was not declared in this scope
+   80 |       if ([01;31m[Klog_file_[m[K.is_open()) {
+      |           [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/rony/Documents/inmind/Session09/ros2_ws/src/session_09/src/lap_time_action_cli.cpp:81:32:[m[K [01;31m[Kerror: [m[K‘[01m[Klap_counter_[m[K’ was not declared in this scope
+   81 |         log_file_ << "Lap " << [01;31m[Klap_counter_[m[K++ << ": " << result.result->total_time << " s\n";
+      |                                [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/lap_timer_client.dir/build.make:76: CMakeFiles/lap_timer_client.dir/src/lap_time_action_cli.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/lap_timer_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
